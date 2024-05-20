@@ -9,7 +9,9 @@ export default function Help() {
 		{ cmd: "bio", detail: "Show my bio information." },
 		{ cmd: "skill", detail: "List all of my skills." },
 		{ cmd: "contact", detail: "List all of the contacts." },
-		{ cmd: "about", detail: "To see what is terminal portfolio." },
+		{ cmd: "about", detail: "Show more information about myself." },
+		{ cmd: "work", detail: "Show my working history." },
+		{ cmd: "projects", detail: "Show my personal projects." },
 		{ cmd: "ctrl + l", detail: "To clear the history." },
 	];
 	return (
@@ -22,6 +24,7 @@ export default function Help() {
 					</div>
 				);
 			})}
+			<p className="mt-3 text-gray-500"> Please input the next command. </p>
 		</div>
 	);
 }

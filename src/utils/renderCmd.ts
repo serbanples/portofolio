@@ -3,7 +3,9 @@ import Bio from "../components/commands/Bio";
 import Contact from "../components/commands/Contact";
 import Help from "../components/commands/Help";
 import NotFound from "../components/commands/NotFound";
+import Projects from "../components/commands/Projects";
 import Skills from "../components/commands/Skills";
+import Work from "../components/commands/Work";
 import { CmdHistory } from "../type";
 
 function renderCmd(cmd: string): CmdHistory {
@@ -38,6 +40,20 @@ function renderCmd(cmd: string): CmdHistory {
 				Component: About,
 				time: "",
 			};
+		}
+		case "work": {
+			return {
+				cmd,
+				Component: Work,
+				time: "",
+			};
+		}
+		case "projects": {
+			return {
+				cmd,
+				Component: Projects,
+				time: ""
+			}
 		}
 		default:
 			return {

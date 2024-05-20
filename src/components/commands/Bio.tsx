@@ -29,11 +29,11 @@ export default function Bio() {
 						<h1 className="text-2xl">Serban Ples</h1>
 						<GoVerified className="text-blue-500 text-2xl" />
 					</div>
-					<p className="text-lg text-gray-400">Joined the world 21 years ago.</p>
+					<p className="text-lg text-gray-400">21 year old future sofware developer</p>
 				</div>
 			</div>
 			<p>
-				Hi there, I am a software developer, passionate with web
+				Hi there, I am a computer science student, passionate about web
 				development and artificial intelligence. I like to learn new stuff,
 				always trying to get better.
 			</p>
