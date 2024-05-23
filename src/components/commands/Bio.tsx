@@ -29,7 +29,7 @@ export default function Bio() {
 						<h1 className="text-2xl">Serban Ples</h1>
 						<GoVerified className="text-blue-500 text-2xl" />
 					</div>
-					<p className="text-lg text-gray-400">21 year old future sofware developer</p>
+					<p className="text-lg text-gray-400">21 year old sofware developer</p>
 				</div>
 			</div>
 			<p>
